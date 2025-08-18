@@ -1,18 +1,28 @@
-## Getting Started
+# Agenda de Contactos en Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Proyecto de consola en Java que permite administrar una agenda de contactos conectada a una base de datos MySQL. 
+Permite agregar, modificar, eliminar y mostrar contactos desde un menú en la terminal.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Agregar contacto
+- Modificar contacto
+- Eliminar contacto
+- Mostrar contactos
+- Manejo de conexión segura a la base de datos mediante archivo de configuración
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Requisitos
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java 11 o superior
+- MySQL Server
+- IDE recomendado: VS Code o IntelliJ IDEA
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Uso
 
-## Dependency Management
+1. Clonar el repositorio:
+2. Configurar el archivo config.properties con tu usuario y contraseña de MySQL.  
+3. Ejecutar Main.java desde tu IDE o terminal.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Notas
+
+El proyecto está pensado como práctica para aprender la integración de Java con bases de datos y buenas prácticas de manejo de conexiones.
